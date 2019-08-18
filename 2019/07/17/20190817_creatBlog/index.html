@@ -7,22 +7,22 @@
   
   <title>hexo构建+github pages托管 的操作日志 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  编译生成静态站1$ hexo g  启动本">
+  <meta name="description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  新建一篇草稿1$ hexo new dra">
 <meta name="keywords" content="nodejs,hexo,gitHub,托管">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo构建+github pages托管 的操作日志">
 <meta property="og:url" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  编译生成静态站1$ hexo g  启动本">
+<meta property="og:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  新建一篇草稿1$ hexo new dra">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-crt-repositories.PNG">
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-pages-setting01.PNG">
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-pages-setting02.PNG">
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-pages-deploy.PNG">
-<meta property="og:updated_time" content="2019-08-18T15:55:40.338Z">
+<meta property="og:updated_time" content="2019-08-18T16:02:59.301Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo构建+github pages托管 的操作日志">
-<meta name="twitter:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  编译生成静态站1$ hexo g  启动本">
+<meta name="twitter:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  新建一篇草稿1$ hexo new dra">
 <meta name="twitter:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-crt-repositories.PNG">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -105,9 +105,13 @@
 
 <h4 id="新建一篇文章"><a href="#新建一篇文章" class="headerlink" title="新建一篇文章"></a>新建一篇文章</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post <span class="string">"test first post"</span></span><br></pre></td></tr></table></figure>
 
+<h4 id="新建一篇草稿"><a href="#新建一篇草稿" class="headerlink" title="新建一篇草稿"></a>新建一篇草稿</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new draft testFirst</span><br></pre></td></tr></table></figure>
+
 <h4 id="编译生成静态站"><a href="#编译生成静态站" class="headerlink" title="编译生成静态站"></a>编译生成静态站</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
 
-<h4 id="启动本地服务器"><a href="#启动本地服务器" class="headerlink" title="启动本地服务器"></a>启动本地服务器</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<h4 id="启动本地服务器预览"><a href="#启动本地服务器预览" class="headerlink" title="启动本地服务器预览"></a>启动本地服务器预览</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+
+<h4 id="启动本地服务器预览草稿"><a href="#启动本地服务器预览草稿" class="headerlink" title="启动本地服务器预览草稿"></a>启动本地服务器预览草稿</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s --draft</span><br></pre></td></tr></table></figure>
 
 <hr>
 <h3 id="gitHub-pages-托管"><a href="#gitHub-pages-托管" class="headerlink" title="gitHub pages 托管"></a>gitHub pages 托管</h3><h4 id="方式有2种"><a href="#方式有2种" class="headerlink" title="方式有2种"></a>方式有2种</h4><ol>
@@ -146,7 +150,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/" data-id="cjzh4bt8z000024zcgg2t8mao" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/" data-id="cjzh5u0ih0001fszcgwae5hvg" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gitHub/">gitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/托管/">托管</a></li></ul>
@@ -157,15 +161,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2019/07/17/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Hello World
-        
-      </div>
-    </a>
   
+    <a href="/2019/07/17/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
 </nav>
 
@@ -222,11 +222,11 @@
       <ul>
         
           <li>
-            <a href="/2019/07/17/hello-world/">Hello World</a>
+            <a href="/2019/07/17/20190817_creatBlog/">hexo构建+github pages托管 的操作日志</a>
           </li>
         
           <li>
-            <a href="/2019/07/17/20190817_creatBlog/">hexo构建+github pages托管 的操作日志</a>
+            <a href="/2019/07/17/hello-world/">Hello World</a>
           </li>
         
       </ul>

@@ -62,6 +62,98 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-20190817_creatBlog" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/07/17/20190817_creatBlog/" class="article-date">
+  <time datetime="2019-07-17T10:30:38.000Z" itemprop="datePublished">2019-07-17</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/技术/">技术</a>►<a class="article-category-link" href="/categories/技术/前端/">前端</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/07/17/20190817_creatBlog/">hexo构建+github pages托管 的操作日志</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="hexo使用笔记"><a href="#hexo使用笔记" class="headerlink" title="hexo使用笔记"></a>hexo使用笔记</h1><h3 id="大前提是要安装好Nodejs，操作忽略可参考这里"><a href="#大前提是要安装好Nodejs，操作忽略可参考这里" class="headerlink" title="大前提是要安装好Nodejs，操作忽略可参考这里"></a>大前提是要安装好Nodejs，操作忽略可参考<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">这里</a></h3><p>以下的操作都是在Nodejs</p>
+<h4 id="hexo-全局安装"><a href="#hexo-全局安装" class="headerlink" title="hexo 全局安装"></a>hexo 全局安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<h4 id="初始化博客目录"><a href="#初始化博客目录" class="headerlink" title="初始化博客目录"></a>初始化博客目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init ../techBlog</span><br></pre></td></tr></table></figure>
+
+<h4 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+
+<h4 id="新建一篇文章"><a href="#新建一篇文章" class="headerlink" title="新建一篇文章"></a>新建一篇文章</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post <span class="string">"test first post"</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="新建一篇草稿"><a href="#新建一篇草稿" class="headerlink" title="新建一篇草稿"></a>新建一篇草稿</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new draft testFirst</span><br></pre></td></tr></table></figure>
+
+<h4 id="编译生成静态站"><a href="#编译生成静态站" class="headerlink" title="编译生成静态站"></a>编译生成静态站</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+
+<h4 id="启动本地服务器预览"><a href="#启动本地服务器预览" class="headerlink" title="启动本地服务器预览"></a>启动本地服务器预览</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+
+<h4 id="启动本地服务器预览草稿"><a href="#启动本地服务器预览草稿" class="headerlink" title="启动本地服务器预览草稿"></a>启动本地服务器预览草稿</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s --draft</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="gitHub-pages-托管"><a href="#gitHub-pages-托管" class="headerlink" title="gitHub pages 托管"></a>gitHub pages 托管</h3><h4 id="方式有2种"><a href="#方式有2种" class="headerlink" title="方式有2种"></a>方式有2种</h4><ol>
+<li>user pages托管</li>
+<li>project pages托管</li>
+</ol>
+<ul>
+<li>因为网上大多介绍的是第一种，所以这里介绍第二种，理论上可以开无数个博客。</li>
+</ul>
+<ol>
+<li><p>gitHub注册用户</p>
+</li>
+<li><p>建立２个仓库。（我这里一个叫tblog,一个叫tblogDeploy）</p>
+<p><img src="GitHub-crt-repositories.PNG" alt="建立仓库"></p>
+</li>
+<li><p>tblog只是用来存放博客的原始资料，gitHub上不用做任何设置。</p>
+</li>
+<li><p>tblogDeploy是公开博客的，对其进行如下设置</p>
+<p><img src="GitHub-pages-setting01.PNG" alt="设置"></p>
+<p><img src="GitHub-pages-setting02.PNG" alt="分枝设定"></p>
+</li>
+<li><p>在自己的域名管理（买域名的地方）里面添加CNAME的映射，映射到【username】.github.io</p>
+</li>
+<li><p>techBlog/source 下添加CNAME文件，无扩展名。打开后在里面写入你的域名。</p>
+</li>
+<li><p>修改 _config.yml 使Hexo可以把生成好的静态博客自动发布到tblogDeploy仓库的gh-pages分枝，修改如下</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">url: https://tblog.xfutian.com</span><br><span class="line">root: /     </span><br><span class="line"><span class="comment"># 中间略       </span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourName/tBlogDeploy.git</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure>
+
+<p>之后运行发布命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br></pre></td></tr></table></figure>
+
+<p><img src="GitHub-pages-deploy.PNG" alt="发布成功"></p>
+<h4 id="大功告成！-祝你玩的开心"><a href="#大功告成！-祝你玩的开心" class="headerlink" title="大功告成！ 祝你玩的开心"></a>大功告成！ 祝你玩的开心</h4>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/" data-id="cjzh5u0ih0001fszcgwae5hvg" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gitHub/">gitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/托管/">托管</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/07/17/hello-world/" class="article-date">
@@ -101,97 +193,9 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/07/17/hello-world/" data-id="cjzgguqbf0001d4zcehvmxtpk" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2019/07/17/hello-world/" data-id="cjzh5u0iv0002fszco04j7rln" class="article-share-link">Share</a>
       
       
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-20190817_creatBlog" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/07/17/20190817_creatBlog/" class="article-date">
-  <time datetime="2019-07-17T10:30:38.000Z" itemprop="datePublished">2019-07-17</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/技术/">技术</a>►<a class="article-category-link" href="/categories/技术/前端/">前端</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/07/17/20190817_creatBlog/">hexo构建+github pages托管 的操作日志</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="hexo使用笔记"><a href="#hexo使用笔记" class="headerlink" title="hexo使用笔记"></a>hexo使用笔记</h1><h3 id="大前提是要安装好Nodejs，操作忽略可参考这里"><a href="#大前提是要安装好Nodejs，操作忽略可参考这里" class="headerlink" title="大前提是要安装好Nodejs，操作忽略可参考这里"></a>大前提是要安装好Nodejs，操作忽略可参考<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">这里</a></h3><p>以下的操作都是在Nodejs</p>
-<h4 id="hexo-全局安装"><a href="#hexo-全局安装" class="headerlink" title="hexo 全局安装"></a>hexo 全局安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-
-<h4 id="初始化博客目录"><a href="#初始化博客目录" class="headerlink" title="初始化博客目录"></a>初始化博客目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init ../techBlog</span><br></pre></td></tr></table></figure>
-
-<h4 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-
-<h4 id="新建一篇文章"><a href="#新建一篇文章" class="headerlink" title="新建一篇文章"></a>新建一篇文章</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post <span class="string">"test first post"</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="编译生成静态站"><a href="#编译生成静态站" class="headerlink" title="编译生成静态站"></a>编译生成静态站</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-
-<h4 id="启动本地服务器"><a href="#启动本地服务器" class="headerlink" title="启动本地服务器"></a>启动本地服务器</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h3 id="gitHub-pages-托管"><a href="#gitHub-pages-托管" class="headerlink" title="gitHub pages 托管"></a>gitHub pages 托管</h3><h4 id="方式有2种"><a href="#方式有2种" class="headerlink" title="方式有2种"></a>方式有2种</h4><ol>
-<li>user pages托管</li>
-<li>project pages托管</li>
-</ol>
-<ul>
-<li>因为网上大多介绍的是第一种，所以这里介绍第二种，理论上可以开无数个博客。</li>
-</ul>
-<ol>
-<li><p>gitHub注册用户</p>
-</li>
-<li><p>建立２个仓库。（我这里一个叫tblog,一个叫tblogDeploy）</p>
-<p><img src="GitHub-crt-repositories.PNG" alt="建立仓库"></p>
-</li>
-<li><p>tblog只是用来存放博客的原始资料，gitHub上不用做任何设置。</p>
-</li>
-<li><p>tblogDeploy是公开博客的，对其进行如下设置</p>
-<p><img src="GitHub-pages-setting01.PNG" alt="设置"></p>
-<p><img src="GitHub-pages-setting02.PNG" alt="分枝设定"></p>
-</li>
-<li><p>在自己的域名管理（买域名的地方）里面添加CNAME的映射，映射到【username】.github.io</p>
-</li>
-<li><p>techBlog/source 下添加CNAME文件，无扩展名。打开后在里面写入你的域名。</p>
-</li>
-<li><p>修改 _config.yml 使Hexo可以把生成好的静态博客自动发布到tblogDeploy仓库的gh-pages分枝，修改如下</p>
-</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">url: https://tblog.xfutian.com</span><br><span class="line">root: /     </span><br><span class="line"><span class="comment"># 中间略       </span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourName/tBlogDeploy.git</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure>
-
-<p>之后运行发布命令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br></pre></td></tr></table></figure>
-
-<p><img src="GitHub-pages-deploy.PNG" alt="发布成功"></p>
-<h4 id="大功告成！-祝你玩的开心"><a href="#大功告成！-祝你玩的开心" class="headerlink" title="大功告成！ 祝你玩的开心"></a>大功告成！ 祝你玩的开心</h4>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/" data-id="cjzh4bt8z000024zcgg2t8mao" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gitHub/">gitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/托管/">托管</a></li></ul>
-
     </footer>
   </div>
   
@@ -251,11 +255,11 @@
       <ul>
         
           <li>
-            <a href="/2019/07/17/hello-world/">Hello World</a>
+            <a href="/2019/07/17/20190817_creatBlog/">hexo构建+github pages托管 的操作日志</a>
           </li>
         
           <li>
-            <a href="/2019/07/17/20190817_creatBlog/">hexo构建+github pages托管 的操作日志</a>
+            <a href="/2019/07/17/hello-world/">Hello World</a>
           </li>
         
       </ul>
