@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>hexo构建+github pages托管 的操作日志 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  编译生成静态站1$ hexo g  启动本">
+<meta name="keywords" content="nodejs,hexo,gitHub,托管">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo构建+github pages托管 的操作日志">
+<meta property="og:url" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  编译生成静态站1$ hexo g  启动本">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-crt-repositories.PNG">
+<meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-pages-setting01.PNG">
+<meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-pages-setting02.PNG">
+<meta property="og:updated_time" content="2019-08-18T15:47:25.186Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hexo构建+github pages托管 的操作日志">
+<meta name="twitter:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  编译生成静态站1$ hexo g  启动本">
+<meta name="twitter:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-crt-repositories.PNG">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://tblog.xfutian.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-20190817_creatBlog" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/07/17/20190817_creatBlog/" class="article-date">
+  <time datetime="2019-07-17T10:30:38.000Z" itemprop="datePublished">2019-07-17</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/技术/">技术</a>►<a class="article-category-link" href="/categories/技术/前端/">前端</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      hexo构建+github pages托管 的操作日志
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="hexo使用笔记"><a href="#hexo使用笔记" class="headerlink" title="hexo使用笔记"></a>hexo使用笔记</h1><h3 id="大前提是要安装好Nodejs，操作忽略可参考这里"><a href="#大前提是要安装好Nodejs，操作忽略可参考这里" class="headerlink" title="大前提是要安装好Nodejs，操作忽略可参考这里"></a>大前提是要安装好Nodejs，操作忽略可参考<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">这里</a></h3><p>以下的操作都是在Nodejs</p>
+<h4 id="hexo-全局安装"><a href="#hexo-全局安装" class="headerlink" title="hexo 全局安装"></a>hexo 全局安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<h4 id="初始化博客目录"><a href="#初始化博客目录" class="headerlink" title="初始化博客目录"></a>初始化博客目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init ../techBlog</span><br></pre></td></tr></table></figure>
+
+<h4 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+
+<h4 id="新建一篇文章"><a href="#新建一篇文章" class="headerlink" title="新建一篇文章"></a>新建一篇文章</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post <span class="string">"test first post"</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="编译生成静态站"><a href="#编译生成静态站" class="headerlink" title="编译生成静态站"></a>编译生成静态站</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+
+<h4 id="启动本地服务器"><a href="#启动本地服务器" class="headerlink" title="启动本地服务器"></a>启动本地服务器</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="gitHub-pages-托管"><a href="#gitHub-pages-托管" class="headerlink" title="gitHub pages 托管"></a>gitHub pages 托管</h3><h4 id="方式有2种"><a href="#方式有2种" class="headerlink" title="方式有2种"></a>方式有2种</h4><ol>
+<li>user pages托管</li>
+<li>project pages托管</li>
+</ol>
+<ul>
+<li>因为网上大多介绍的是第一种，所以这里介绍第二种，理论上可以开无数个博客。</li>
+</ul>
+<ol>
+<li><p>gitHub注册用户</p>
+</li>
+<li><p>建立２个仓库。（我这里一个叫tblog,一个叫tblogDeploy）</p>
+<p><img src="GitHub-crt-repositories.PNG" alt="建立仓库"></p>
+</li>
+<li><p>tblog只是用来存放博客的原始资料，gitHub上不用做任何设置。</p>
+</li>
+<li><p>tblogDeploy是公开博客的，对其进行如下设置</p>
+<p><img src="GitHub-pages-setting01.PNG" alt="设置"></p>
+<p><img src="GitHub-pages-setting02.PNG" alt="分枝设定"></p>
+</li>
+<li><p>在自己的域名管理（买域名的的方）里面添加CNAME的映射，映射到<username>.github.io</username></p>
+</li>
+<li><p>techBlog/source 下添加CNAME文件，无扩展名。打开后在里面写入你的域名。</p>
+</li>
+<li><p>修改 _config.yml 使Hexo可以把生成好的静态博客自动发布到tblogDeploy，修改如下</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">url: https://tblog.xfutian.com</span><br><span class="line">root: /            </span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourName/tBlogDeploy.git</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure>
+
+<p>之后运行发布命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/" data-id="cjzh4bt8z000024zcgg2t8mao" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gitHub/">gitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/托管/">托管</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/07/17/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/前端/">前端</a></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/gitHub/">gitHub</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/托管/">托管</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/gitHub/" style="font-size: 10px;">gitHub</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/nodejs/" style="font-size: 10px;">nodejs</a> <a href="/tags/托管/" style="font-size: 10px;">托管</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">July 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/07/17/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2019/07/17/20190817_creatBlog/">hexo构建+github pages托管 的操作日志</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
