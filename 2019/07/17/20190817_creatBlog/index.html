@@ -18,7 +18,7 @@
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-crt-repositories.PNG">
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-pages-setting01.PNG">
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/20190817_creatBlog/GitHub-pages-setting02.PNG">
-<meta property="og:updated_time" content="2019-08-18T15:47:25.186Z">
+<meta property="og:updated_time" content="2019-08-18T15:53:05.313Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo构建+github pages托管 的操作日志">
 <meta name="twitter:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  编译生成静态站1$ hexo g  启动本">
@@ -128,14 +128,14 @@
 <p><img src="GitHub-pages-setting01.PNG" alt="设置"></p>
 <p><img src="GitHub-pages-setting02.PNG" alt="分枝设定"></p>
 </li>
-<li><p>在自己的域名管理（买域名的的方）里面添加CNAME的映射，映射到<username>.github.io</username></p>
+<li><p>在自己的域名管理（买域名的地方）里面添加CNAME的映射，映射到【username】.github.io</p>
 </li>
 <li><p>techBlog/source 下添加CNAME文件，无扩展名。打开后在里面写入你的域名。</p>
 </li>
-<li><p>修改 _config.yml 使Hexo可以把生成好的静态博客自动发布到tblogDeploy，修改如下</p>
+<li><p>修改 _config.yml 使Hexo可以把生成好的静态博客自动发布到tblogDeploy仓库的gh-pages分枝，修改如下</p>
 </li>
 </ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">url: https://tblog.xfutian.com</span><br><span class="line">root: /            </span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourName/tBlogDeploy.git</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">url: https://tblog.xfutian.com</span><br><span class="line">root: /     </span><br><span class="line"><span class="comment"># 中间略       </span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourName/tBlogDeploy.git</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure>
 
 <p>之后运行发布命令</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br></pre></td></tr></table></figure>
