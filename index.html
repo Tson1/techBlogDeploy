@@ -127,10 +127,138 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/10/26/nodejs-excute-es6CMD/" data-id="ck273c1g70002jozc4cm18bdx" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2019/10/26/nodejs-excute-es6CMD/" data-id="ck2yofsbs000aogzc5fns8s0w" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ES6/">ES6</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-robocopy-useage" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/10/06/robocopy-useage/" class="article-date">
+  <time datetime="2019-10-06T11:39:50.000Z" itemprop="datePublished">2019-10-06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/利器，备份/">利器，备份</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/06/robocopy-useage/">robocopy_useage</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="robocopy-WIN系统文件夹同步神器"><a href="#robocopy-WIN系统文件夹同步神器" class="headerlink" title="robocopy WIN系统文件夹同步神器"></a>robocopy WIN系统文件夹同步神器</h1><hr>
+<ol>
+<li><p>应用场景非常的多，值得好好研究</p>
+<ol>
+<li>开发时的文件同步</li>
+<li>部署时的文件复制</li>
+<li>备份时的多重保存</li>
+</ol>
+</li>
+<li><p>基本用法<br>以下示例，复制所有文件和文件夹，包括子文件夹和空文件夹：/e 是指包含子文件夹，含空文件夹，/s 则只包含非空子文件夹。</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">robocopy C:\SourceDir C:\DestDir /e</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>复制安全信息<br>假设已经把 C:\SourceDir 上的所有文件复制到 C:\DestDir，然后又对 C:\SourceDir 目录的权限做了更改，则只需要执行下面的命令就能只把权限（安全信息）复制过去：/Copy:S 是复制安全信息。</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">robocopy C:\SourceDir C:\DestDir /s /<span class="built_in">Copy</span>:S</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>设置重试次数和重试间隔,复制大量文件时特别有必要：<br>/r:3 指定重试次数是3次，/w:5 指定重试等待间隔为5秒，默认是30秒。</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">robocopy C:\SourceDir C:\DestDir /e /r:<span class="number">3</span> /w:<span class="number">5</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>多线程复制.实际上，Robocopy 默认是使用8线程进行作业：<br>/MT:15 指定线程数为15，这个值可以为1~128之间。</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">robocopy C:\SourceDir C:\DestDir /e /r:<span class="number">3</span> /w:<span class="number">5</span> /MT:<span class="number">15</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>写入日志<br>Robocopy 的日志可谓是随心所欲控制：</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">robocopy C:\SourceDir C:\DestDir /e /tee /fp /ns /nc /log+:C:\<span class="built_in">copy</span>.log</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>/tee，既显示在控制台，又写入日志<br>/fp，显示文件完整路径<br>/ns，不显示文件大小<br>/nc，不显示文件类型<br>/log+:C:\copy.log，日志附加到 C:\copy.log 文件中。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tblog.xfutian.com/2019/10/06/robocopy-useage/" data-id="ck2yofsbn0007ogzc0hcmtw1m" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/备份/">备份</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/文件同步/">文件同步</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/环境部署/">环境部署</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-ejs-quot-problem" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/10/05/ejs-quot-problem/" class="article-date">
+  <time datetime="2019-10-05T11:32:56.000Z" itemprop="datePublished">2019-10-05</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/技术/">技术</a>►<a class="article-category-link" href="/categories/技术/前端/">前端</a>►<a class="article-category-link" href="/categories/技术/前端/nodejs/">nodejs</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/05/ejs-quot-problem/">ejs_quot_problem</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="ejs-模板的引号问题"><a href="#ejs-模板的引号问题" class="headerlink" title="ejs 模板的引号问题"></a>ejs 模板的引号问题</h2><h4 id="用ejs作一些代码生成的小工具解决一些琐碎工作，碰到了引号问题单引号和双引号都一样，解决的方法记录一下"><a href="#用ejs作一些代码生成的小工具解决一些琐碎工作，碰到了引号问题单引号和双引号都一样，解决的方法记录一下" class="headerlink" title="用ejs作一些代码生成的小工具解决一些琐碎工作，碰到了引号问题单引号和双引号都一样，解决的方法记录一下"></a>用ejs作一些代码生成的小工具解决一些琐碎工作，碰到了引号问题单引号和双引号都一样，解决的方法记录一下</h4><p>数据</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">json=&#123;data:&quot;test=&apos;helloWord;&apos;&quot;&#125;</span><br></pre></td></tr></table></figure>
+
+<p>ejs格式输出:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%=data%&gt;</span><br></pre></td></tr></table></figure>
+
+<p>结果如下：引号变乱码了，并不是期待的结果</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test=&amp;#34;helloWord;&amp;#34</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p><strong><em>解决方法:</em></strong><br>把【&lt;%=】换成【&lt;%-】</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%-data%&gt;</span><br></pre></td></tr></table></figure>
+
+<p>结果：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test=&apos;helloWord;&apos;</span><br></pre></td></tr></table></figure>
+
+<p>双引号同理</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tblog.xfutian.com/2019/10/05/ejs-quot-problem/" data-id="ck2yofsbk0006ogzcv38dq9x7" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ejs/">ejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li></ul>
 
     </footer>
   </div>
@@ -206,7 +334,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/09/29/Gitbook-memo1/" data-id="ck273c1ai0001jozcia0g9ml8" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2019/09/29/Gitbook-memo1/" data-id="ck2yofsb20002ogzcmor7qreo" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Gitbook/">Gitbook</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MarkDown/">MarkDown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/写作/">写作</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/数据这里/">数据这里</a></li></ul>
@@ -397,7 +525,7 @@
 
 </li>
 </ol>
-<p><a href="http://www.google.com/" target="_blank" rel="noopener">http://www.google.com/</a><br><a href="mailto:&#49;&#50;&#51;&#x40;&#101;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;" target="_blank" rel="noopener">&#49;&#50;&#51;&#x40;&#101;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p><a href="http://www.google.com/" target="_blank" rel="noopener">http://www.google.com/</a><br><a href="mailto:&#x31;&#50;&#51;&#x40;&#x65;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;" target="_blank" rel="noopener">&#x31;&#50;&#51;&#x40;&#x65;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></p>
 </li>
 </ol>
 <h2 id="图片链接"><a href="#图片链接" class="headerlink" title="图片链接"></a>图片链接</h2><p>  比超链接多一个！号<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![googlelogo](https://www.google.co.jp/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png &quot;googlelogo&quot;)</span><br></pre></td></tr></table></figure></p>
@@ -505,7 +633,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/09/29/MarkDown-memo1/" data-id="ck273c1gq0006jozcmmtr4c37" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2019/09/29/MarkDown-memo1/" data-id="ck2yofsbe0004ogzcjov90vir" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MarkDown/">MarkDown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/写作/">写作</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/笔记/">笔记</a></li></ul>
@@ -597,7 +725,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/07/17/creatBlog/" data-id="ck273c1gj0004jozc08nzhy2w" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2019/07/17/creatBlog/" data-id="ck2yofsap0001ogzcdv4x4kbo" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gitHub/">gitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/托管/">托管</a></li></ul>
@@ -648,7 +776,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/07/17/2019-hello-world/" data-id="ck273c1gx0007jozchznd5l1c" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2019/07/17/2019-hello-world/" data-id="ck2yofsc0000bogzcdsys3y5h" class="article-share-link">Share</a>
       
       
     </footer>
@@ -668,7 +796,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/利器/">利器</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/利器/Gitbook/">Gitbook</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/利器/MarkDown/">MarkDown</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/前端/">前端</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/前端/nodejs/">nodejs</a></li></ul></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/利器/">利器</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/利器/Gitbook/">Gitbook</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/利器/MarkDown/">MarkDown</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/利器，备份/">利器，备份</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/前端/">前端</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/前端/nodejs/">nodejs</a></li></ul></li></ul></li></ul>
     </div>
   </div>
 
@@ -678,7 +806,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ES6/">ES6</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Gitbook/">Gitbook</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MarkDown/">MarkDown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gitHub/">gitHub</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/写作/">写作</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/托管/">托管</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数据这里/">数据这里</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/笔记/">笔记</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ES6/">ES6</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Gitbook/">Gitbook</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MarkDown/">MarkDown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ejs/">ejs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gitHub/">gitHub</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/写作/">写作</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/备份/">备份</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/托管/">托管</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数据这里/">数据这里</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/文件同步/">文件同步</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/环境部署/">环境部署</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/笔记/">笔记</a></li></ul>
     </div>
   </div>
 
@@ -688,7 +816,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/ES6/" style="font-size: 10px;">ES6</a> <a href="/tags/Gitbook/" style="font-size: 10px;">Gitbook</a> <a href="/tags/MarkDown/" style="font-size: 20px;">MarkDown</a> <a href="/tags/gitHub/" style="font-size: 10px;">gitHub</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/nodejs/" style="font-size: 20px;">nodejs</a> <a href="/tags/写作/" style="font-size: 20px;">写作</a> <a href="/tags/托管/" style="font-size: 10px;">托管</a> <a href="/tags/数据这里/" style="font-size: 10px;">数据这里</a> <a href="/tags/笔记/" style="font-size: 10px;">笔记</a>
+      <a href="/tags/ES6/" style="font-size: 10px;">ES6</a> <a href="/tags/Gitbook/" style="font-size: 10px;">Gitbook</a> <a href="/tags/MarkDown/" style="font-size: 15px;">MarkDown</a> <a href="/tags/ejs/" style="font-size: 10px;">ejs</a> <a href="/tags/gitHub/" style="font-size: 10px;">gitHub</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/nodejs/" style="font-size: 20px;">nodejs</a> <a href="/tags/写作/" style="font-size: 15px;">写作</a> <a href="/tags/备份/" style="font-size: 10px;">备份</a> <a href="/tags/托管/" style="font-size: 10px;">托管</a> <a href="/tags/数据这里/" style="font-size: 10px;">数据这里</a> <a href="/tags/文件同步/" style="font-size: 10px;">文件同步</a> <a href="/tags/环境部署/" style="font-size: 10px;">环境部署</a> <a href="/tags/笔记/" style="font-size: 10px;">笔记</a>
     </div>
   </div>
 
@@ -714,19 +842,19 @@
           </li>
         
           <li>
+            <a href="/2019/10/06/robocopy-useage/">robocopy_useage</a>
+          </li>
+        
+          <li>
+            <a href="/2019/10/05/ejs-quot-problem/">ejs_quot_problem</a>
+          </li>
+        
+          <li>
             <a href="/2019/09/29/Gitbook-memo1/">Gitbook-基本的使用方法</a>
           </li>
         
           <li>
             <a href="/2019/09/29/MarkDown-memo1/">MarkDown- 基本使用方法</a>
-          </li>
-        
-          <li>
-            <a href="/2019/07/17/creatBlog/">hexo构建+github pages托管 的操作日志</a>
-          </li>
-        
-          <li>
-            <a href="/2019/07/17/2019-hello-world/">Hello World</a>
           </li>
         
       </ul>
