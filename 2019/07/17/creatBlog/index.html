@@ -7,22 +7,22 @@
   
   <title>hexo构建+github pages托管 的操作日志 | 一切福田，不离心田方寸</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  新建一篇草稿1$ hexo new dra">
+  <meta name="description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g">
 <meta name="keywords" content="nodejs,hexo,gitHub,托管">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo构建+github pages托管 的操作日志">
 <meta property="og:url" content="https://tblog.xfutian.com/2019/07/17/creatBlog/index.html">
 <meta property="og:site_name" content="一切福田，不离心田方寸">
-<meta property="og:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  新建一篇草稿1$ hexo new dra">
+<meta property="og:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/creatBlog/GitHub-crt-repositories.PNG">
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/creatBlog/GitHub-pages-setting01.PNG">
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/creatBlog/GitHub-pages-setting02.PNG">
 <meta property="og:image" content="https://tblog.xfutian.com/2019/07/17/creatBlog/GitHub-pages-deploy.PNG">
-<meta property="og:updated_time" content="2019-08-18T16:02:59.301Z">
+<meta property="og:updated_time" content="2019-11-20T12:18:35.765Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo构建+github pages托管 的操作日志">
-<meta name="twitter:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g  初始化博客目录1$ hexo init ../techBlog  安装依赖1$ npm install  新建一篇文章1$ hexo new post &quot;test first post&quot;  新建一篇草稿1$ hexo new dra">
+<meta name="twitter:description" content="hexo使用笔记大前提是要安装好Nodejs，操作忽略可参考这里以下的操作都是在Nodejs hexo 全局安装1$ npm install hexo-cli -g">
 <meta name="twitter:image" content="https://tblog.xfutian.com/2019/07/17/creatBlog/GitHub-crt-repositories.PNG">
   
     <link rel="alternate" href="/atom.xml" title="一切福田，不离心田方寸" type="application/atom+xml">
@@ -105,6 +105,7 @@
         <h1 id="hexo使用笔记"><a href="#hexo使用笔记" class="headerlink" title="hexo使用笔记"></a>hexo使用笔记</h1><h3 id="大前提是要安装好Nodejs，操作忽略可参考这里"><a href="#大前提是要安装好Nodejs，操作忽略可参考这里" class="headerlink" title="大前提是要安装好Nodejs，操作忽略可参考这里"></a>大前提是要安装好Nodejs，操作忽略可参考<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">这里</a></h3><p>以下的操作都是在Nodejs</p>
 <h4 id="hexo-全局安装"><a href="#hexo-全局安装" class="headerlink" title="hexo 全局安装"></a>hexo 全局安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
 
+<a id="more"></a>
 <h4 id="初始化博客目录"><a href="#初始化博客目录" class="headerlink" title="初始化博客目录"></a>初始化博客目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init ../techBlog</span><br></pre></td></tr></table></figure>
 
 <h4 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
@@ -146,7 +147,7 @@
 <li><p>修改 _config.yml 使Hexo可以把生成好的静态博客自动发布到tblogDeploy仓库的gh-pages分枝，修改如下</p>
 </li>
 </ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">url: https://tblog.xfutian.com</span><br><span class="line">root: /     </span><br><span class="line"><span class="comment"># 中间略       </span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourName/tBlogDeploy.git</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">url: https://tblog.xfutian.com</span><br><span class="line">root: /</span><br><span class="line"><span class="comment"># 中间略</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourName/tBlogDeploy.git</span><br><span class="line">  branch: gh-pages</span><br></pre></td></tr></table></figure>
 
 <p>之后运行发布命令</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br></pre></td></tr></table></figure>
@@ -156,7 +157,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/07/17/creatBlog/" data-id="ck2yofsap0001ogzcdv4x4kbo" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2019/07/17/creatBlog/" data-id="ck379acgx0001e4zcr8y2vuny" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gitHub/">gitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/托管/">托管</a></li></ul>

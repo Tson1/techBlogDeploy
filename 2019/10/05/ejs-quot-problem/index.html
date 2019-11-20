@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="一切福田，不离心田方寸">
 <meta property="og:description" content="用ejs作一些代码生成的小工具解决一些琐碎工作，碰到了引号问题单引号和双引号都一样，解决的方法记录一下数据 1json=&amp;#123;data:&amp;quot;test=&amp;apos;helloWord;&amp;apos;&amp;quot;&amp;#125;  ejs格式输出: 1&amp;lt;%=data%&amp;gt;  结果如下：引号变乱码了，并不是期待的结果 1test=&amp;amp;#34;helloWord;&amp;amp;#34">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-14T12:26:01.533Z">
+<meta property="og:updated_time" content="2019-11-20T12:19:30.963Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ejs 模板的引号问题">
 <meta name="twitter:description" content="用ejs作一些代码生成的小工具解决一些琐碎工作，碰到了引号问题单引号和双引号都一样，解决的方法记录一下数据 1json=&amp;#123;data:&amp;quot;test=&amp;apos;helloWord;&amp;apos;&amp;quot;&amp;#125;  ejs格式输出: 1&amp;lt;%=data%&amp;gt;  结果如下：引号变乱码了，并不是期待的结果 1test=&amp;amp;#34;helloWord;&amp;amp;#34">
@@ -107,6 +107,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test=&amp;#34;helloWord;&amp;#34</span><br></pre></td></tr></table></figure>
 
 <hr>
+<a id="more"></a>
 <p><strong><em>解决方法:</em></strong><br>把【&lt;%=】换成【&lt;%-】</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%-data%&gt;</span><br></pre></td></tr></table></figure>
 
@@ -118,7 +119,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/10/05/ejs-quot-problem/" data-id="ck2yofsbk0006ogzcv38dq9x7" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2019/10/05/ejs-quot-problem/" data-id="ck379acis0007e4zcrqwj3uxk" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ejs/">ejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li></ul>
