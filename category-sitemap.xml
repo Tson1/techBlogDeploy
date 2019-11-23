@@ -8,15 +8,29 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/nodejs/</loc>
+        <lastmod>2019-11-23T09:51:32.249Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/</loc>
+        <lastmod>2019-11-23T09:51:32.249Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/categories/%E6%8B%BC%E9%9F%B3/%E5%90%AF%E8%92%99/</loc>
-        <lastmod>2019-11-23T09:46:54.170Z</lastmod>
+        <lastmod>2019-11-23T09:50:46.819Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://tblog.xfutian.com/categories/%E6%8B%BC%E9%9F%B3/</loc>
-        <lastmod>2019-11-23T09:46:54.170Z</lastmod>
+        <lastmod>2019-11-23T09:50:46.819Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -31,27 +45,6 @@
     <url>
         <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/</loc>
         <lastmod>2019-11-23T09:31:33.969Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/nodejs/</loc>
-        <lastmod>2019-11-20T12:19:47.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/</loc>
-        <lastmod>2019-11-20T12:19:47.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/</loc>
-        <lastmod>2019-11-20T12:19:47.639Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

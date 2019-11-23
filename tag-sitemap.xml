@@ -3,29 +3,50 @@
 
 
     <url>
+        <loc>https://tblog.xfutian.com/tags/ES6/</loc>
+        <lastmod>2019-11-23T09:51:32.249Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/nodejs/</loc>
+        <lastmod>2019-11-23T09:51:32.249Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/ejs/</loc>
+        <lastmod>2019-11-23T09:51:18.437Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/tags/%E6%8B%BC%E9%9F%B3/</loc>
-        <lastmod>2019-11-23T09:46:54.170Z</lastmod>
+        <lastmod>2019-11-23T09:50:46.819Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://tblog.xfutian.com/tags/%E5%90%AF%E8%92%99/</loc>
-        <lastmod>2019-11-23T09:46:54.170Z</lastmod>
+        <lastmod>2019-11-23T09:50:46.819Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://tblog.xfutian.com/tags/%E5%9B%BD%E5%AD%A6/</loc>
-        <lastmod>2019-11-23T09:46:54.170Z</lastmod>
+        <lastmod>2019-11-23T09:50:46.819Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://tblog.xfutian.com/tags/gitBook/</loc>
-        <lastmod>2019-11-23T09:46:54.170Z</lastmod>
+        <lastmod>2019-11-23T09:50:46.819Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -52,20 +73,6 @@
     </url>
 
     <url>
-        <loc>https://tblog.xfutian.com/tags/nodejs/</loc>
-        <lastmod>2019-11-23T09:31:33.969Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/ES6/</loc>
-        <lastmod>2019-11-20T12:19:47.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://tblog.xfutian.com/tags/%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5/</loc>
         <lastmod>2019-11-20T12:19:41.413Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -82,13 +89,6 @@
     <url>
         <loc>https://tblog.xfutian.com/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</loc>
         <lastmod>2019-11-20T12:19:41.413Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/ejs/</loc>
-        <lastmod>2019-11-20T12:19:30.963Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
