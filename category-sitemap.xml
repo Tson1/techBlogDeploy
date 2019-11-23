@@ -8,15 +8,15 @@
     </url>
 
     <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/</loc>
-        <lastmod>2019-11-20T12:59:56.968Z</lastmod>
+        <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/hexo/</loc>
+        <lastmod>2019-11-23T09:44:55.707Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/</loc>
-        <lastmod>2019-11-20T12:59:56.968Z</lastmod>
+        <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/</loc>
+        <lastmod>2019-11-23T09:44:55.707Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -29,14 +29,21 @@
     </url>
 
     <url>
-        <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/%E5%A4%87%E4%BB%BD/</loc>
-        <lastmod>2019-11-20T12:19:41.413Z</lastmod>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/</loc>
+        <lastmod>2019-11-20T12:19:47.639Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/</loc>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/</loc>
+        <lastmod>2019-11-20T12:19:47.639Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/%E5%A4%87%E4%BB%BD/</loc>
         <lastmod>2019-11-20T12:19:41.413Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
