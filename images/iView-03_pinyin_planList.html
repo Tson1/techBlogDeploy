@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>一切福田，不离心田方寸</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="#app{padding: 35px;}   .bookList{padding-left:60px;}   .bookItem{padding-top:15px;}   .subTile{      font:italic bold 25px/30px Georgia,serif;   }   .listInfo{     font:20px/30px Georgia,serif;">
+<meta name="keywords" content="技术 开发 数据库 JAVA C# SQLServer Nodejs">
+<meta property="og:type" content="website">
+<meta property="og:title" content="一切福田，不离心田方寸">
+<meta property="og:url" content="https://tblog.xfutian.com/images/iView-03_pinyin_planList.html">
+<meta property="og:site_name" content="一切福田，不离心田方寸">
+<meta property="og:description" content="#app{padding: 35px;}   .bookList{padding-left:60px;}   .bookItem{padding-top:15px;}   .subTile{      font:italic bold 25px/30px Georgia,serif;   }   .listInfo{     font:20px/30px Georgia,serif;">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-25T11:28:29.378Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="一切福田，不离心田方寸">
+<meta name="twitter:description" content="#app{padding: 35px;}   .bookList{padding-left:60px;}   .bookItem{padding-top:15px;}   .subTile{      font:italic bold 25px/30px Georgia,serif;   }   .listInfo{     font:20px/30px Georgia,serif;">
+  
+    <link rel="alternate" href="/atom.xml" title="一切福田，不离心田方寸" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">一切福田，不离心田方寸</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">足迹</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="https://daodejing.xfutian.com/">道德经拼音版</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://tblog.xfutian.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/images/iView-03_pinyin_planList.html" class="article-date">
+  <time datetime="2019-11-25T12:30:32.811Z" itemprop="datePublished">2019-11-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+<style media="screen">
+  #app{padding: 35px;}
+  .bookList{padding-left:60px;}
+  .bookItem{padding-top:15px;}
+  .subTile{
+     font:italic bold 25px/30px Georgia,serif;
+  }
+  .listInfo{
+    font:20px/30px Georgia,serif;
+  }
+</style>
+
+    <meta charset="utf-8">
+    <title>iview example</title>
+    <link rel="stylesheet" type="text/css" href="http://unpkg.com/iview/dist/styles/iview.css">
+    <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
+    <script type="text/javascript" src="http://unpkg.com/iview/dist/iview.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <div class="subTile">
+    <p> lie biao </p>
+  </div>
+  <collapse v-model="value2" accordion class="listInfo">
+
+      <panel name="4">
+        
+        <ol slot="content" class="bookList">
+          <li class="bookItem" slot="content" v-for="elem in items[0].list"> <ruby> <rb>  </rb> <rt></rt> </ruby> <a v-bind:href="elem.url" target="_blank"></a>   </li>
+        </ol>
+      </panel>
+      <panel name="5">
+        
+        <ol slot="content" class="bookList">
+          <li slot="content" v-for="elem in items[1].list" :key="elem.url"> <ruby> <rb>  </rb> <rt></rt> </ruby> <a v-bind:href="elem.url" target="_blank"></a>   </li>
+        </ol>
+      </panel>
+      <panel name="6">
+        
+        <ol slot="content" class="bookList">
+          <li slot="content" v-for="elem in items[2].list" :key="elem.url"> <ruby> <rb>  </rb> <rt></rt> </ruby> <a v-bind:href="elem.url" target="_blank"></a>   </li>
+        </ol>
+      </panel>
+      <panel name="7">
+        
+        <ol slot="content" class="bookList">
+          <li slot="content" v-for="elem in items[3].list" :key="elem.url"> <ruby> <rb>  </rb> <rt></rt> </ruby> <a v-bind:href="elem.url" target="_blank"></a>   </li>
+        </ol>
+      </panel>
+
+  </collapse>
+</div>
+
+<script>
+var Main = {
+    data () {
+      return {
+          value2: '4' // 表示Item番号
+          ,items:[
+            {title:"蒙学",no:"4"
+            ,list:[
+              {text:"三字经",py:"sān zì jīng ",url:"https://sanzijing.xfutian.com"}
+              ,{text:"百家姓",py:"bǎi jiā xìng",url:""}
+              ,{text:"千字文",py:"qiān zì wén ",url:""}
+              ,{text:"弟子规",py:"dì zǐ guī ",url:""}
+              ,{text:"声律启蒙",py:"shēng lǜ qǐ méng ",url:""}
+              ,{text:"幼学琼林",py:"yòu xué qióng lín ",url:""}
+              ,{text:"朱子家训",py:"zhū zǐ jiā xùn ",url:""}
+              ,{text:"道德经",py:"dào dé jīng",url:"https://daodejing.xfutian.com/"}
+            ]}
+          ,{title:"四书 已字数排序",no:"5"
+            ,list:[
+              {text:"大学",py:"dà xué ",url:""}
+              ,{text:"中庸",py:"zhōng yōng ",url:""}
+              ,{text:"论语",py:"lùn yǔ ",url:""}
+              ,{text:"孟子",py:"mèng zǐ ",url:""}
+            ]}
+          ,{title:"五经",no:"6"
+            ,list:[
+              {text:"诗经",py:"shī jīng ",url:""}
+              ,{text:"尚書",py:"shàng shū ",url:""}
+              ,{text:"礼记",py:"lǐ jì ",url:""}
+              ,{text:"周易",py:"zhōu yì ",url:""}
+              ,{text:"春秋",py:"chūn qiū ",url:""}
+            ]}
+            ,{title:"佛学经典",no:"7"
+              ,list:[
+                {text:"金刚经",py:"jīn gāng jīng ",url:""}
+                ,{text:"地藏菩萨本愿经",py:"dì cáng pú sà běn yuàn jīng ",url:""}
+              ]}
+            ,{title:"唐诗宋词",py:"",no:"7"
+              ,list:[
+                {text:"唐诗300",py:"táng shī 300",url:""}
+                ,{text:"宋词",py:"sòng cí ",url:""}
+              ]}
+
+          ]
+        }
+      }
+}
+
+var Component = Vue.extend(Main)
+new Component().$mount('#app')
+  </script>
+</body>
+</html>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tblog.xfutian.com/images/iView-03_pinyin_planList.html" data-id="ck3eetxsr0000sgzc2ezw8ecs" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/利器/">利器</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/利器/Gitbook/">Gitbook</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/利器/MarkDown/">MarkDown</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/利器/hexo/">hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/利器/备份/">备份</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/启蒙/">启蒙</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/启蒙/拼音/">拼音</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/nodejs/">nodejs</a></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ES6/">ES6</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Gitbook/">Gitbook</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MarkDown/">MarkDown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ejs/">ejs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gitBook/">gitBook</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gitHub/">gitHub</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/写作/">写作</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/启蒙/">启蒙</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/国学/">国学</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/备份/">备份</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/托管/">托管</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/拼音/">拼音</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数据这里/">数据这里</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/文件同步/">文件同步</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/环境部署/">环境部署</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/笔记/">笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/ES6/" style="font-size: 10px;">ES6</a> <a href="/tags/Gitbook/" style="font-size: 10px;">Gitbook</a> <a href="/tags/MarkDown/" style="font-size: 15px;">MarkDown</a> <a href="/tags/ejs/" style="font-size: 10px;">ejs</a> <a href="/tags/gitBook/" style="font-size: 10px;">gitBook</a> <a href="/tags/gitHub/" style="font-size: 10px;">gitHub</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/nodejs/" style="font-size: 20px;">nodejs</a> <a href="/tags/写作/" style="font-size: 15px;">写作</a> <a href="/tags/启蒙/" style="font-size: 10px;">启蒙</a> <a href="/tags/国学/" style="font-size: 10px;">国学</a> <a href="/tags/备份/" style="font-size: 10px;">备份</a> <a href="/tags/托管/" style="font-size: 10px;">托管</a> <a href="/tags/拼音/" style="font-size: 10px;">拼音</a> <a href="/tags/数据这里/" style="font-size: 10px;">数据这里</a> <a href="/tags/文件同步/" style="font-size: 10px;">文件同步</a> <a href="/tags/环境部署/" style="font-size: 10px;">环境部署</a> <a href="/tags/笔记/" style="font-size: 10px;">笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">October 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">September 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">August 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">July 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/10/26/nodejs-excute-es6CMD/">nodejs-excute-es6CMD</a>
+          </li>
+        
+          <li>
+            <a href="/2019/10/06/robocopy-useage/">robocopy WIN系统文件夹同步神器</a>
+          </li>
+        
+          <li>
+            <a href="/2019/10/05/ejs-quot-problem/">ejs 模板的引号问题</a>
+          </li>
+        
+          <li>
+            <a href="/2019/09/29/Gitbook-memo1/">Gitbook-基本的使用方法</a>
+          </li>
+        
+          <li>
+            <a href="/2019/09/29/MarkDown-memo1/">MarkDown- 基本使用方法</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 tson1<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="https://daodejing.xfutian.com/" class="mobile-nav-link">道德经拼音版</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
