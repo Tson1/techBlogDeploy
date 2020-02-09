@@ -8,6 +8,62 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/2019/07/20/gitlog-Garbled-win10-japnese/</loc>
+        <lastmod>2020-02-09T09:02:16.089Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/2019/08/17/git-jinjiYingyong/</loc>
+        <lastmod>2020-02-09T09:02:05.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/2020/02/09/MySql-DDL-transaction/</loc>
+        <lastmod>2020-02-09T09:01:13.372Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/2019/07/27/git-config-domain2/</loc>
+        <lastmod>2020-02-09T09:00:30.251Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/2019/08/03/Atom-install-plugin/</loc>
+        <lastmod>2020-02-09T09:00:10.207Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/2019/08/10/MySQLWorkbench-error/</loc>
+        <lastmod>2020-02-09T08:59:27.437Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/2019/09/29/Gitbook-memo1/</loc>
+        <lastmod>2020-02-09T08:43:15.779Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/2019/08/10/gitbook-pinyinh-plan/</loc>
         <lastmod>2019-11-25T12:26:31.614Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -58,14 +114,6 @@
     <url>
         <loc>https://tblog.xfutian.com/2019/09/29/MarkDown-memo1/</loc>
         <lastmod>2019-11-20T12:19:00.217Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/2019/09/29/Gitbook-memo1/</loc>
-        <lastmod>2019-11-20T12:18:43.864Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

@@ -3,6 +3,111 @@
 
 
     <url>
+        <loc>https://tblog.xfutian.com/tags/WIN10/</loc>
+        <lastmod>2020-02-09T09:02:16.089Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/OS/</loc>
+        <lastmod>2020-02-09T09:02:16.089Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/git/</loc>
+        <lastmod>2020-02-09T09:02:16.089Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/%E5%BA%94%E6%80%A5%E6%8E%AA%E6%96%BD/</loc>
+        <lastmod>2020-02-09T09:02:05.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/Git/</loc>
+        <lastmod>2020-02-09T09:02:05.772Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/mysql/</loc>
+        <lastmod>2020-02-09T09:01:13.372Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/%E6%8F%92%E4%BB%B6/</loc>
+        <lastmod>2020-02-09T09:00:10.207Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/atom/</loc>
+        <lastmod>2020-02-09T09:00:10.207Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8/</loc>
+        <lastmod>2020-02-09T09:00:10.207Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/MySQL/</loc>
+        <lastmod>2020-02-09T08:59:27.437Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/MySQLWorkbench/</loc>
+        <lastmod>2020-02-09T08:59:27.437Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/%E6%95%B0%E6%8D%AE/</loc>
+        <lastmod>2020-02-09T08:43:15.779Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/%E5%86%99%E4%BD%9C/</loc>
+        <lastmod>2020-02-09T08:43:15.779Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/Gitbook/</loc>
+        <lastmod>2020-02-09T08:43:15.779Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/MarkDown/</loc>
+        <lastmod>2020-02-09T08:43:15.779Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/tags/%E6%8B%BC%E9%9F%B3/</loc>
         <lastmod>2019-11-25T12:26:31.614Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -96,34 +201,6 @@
     <url>
         <loc>https://tblog.xfutian.com/tags/%E7%AC%94%E8%AE%B0/</loc>
         <lastmod>2019-11-20T12:19:00.217Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/%E5%86%99%E4%BD%9C/</loc>
-        <lastmod>2019-11-20T12:19:00.217Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/MarkDown/</loc>
-        <lastmod>2019-11-20T12:19:00.217Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/%E6%95%B0%E6%8D%AE%E8%BF%99%E9%87%8C/</loc>
-        <lastmod>2019-11-20T12:18:43.864Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/Gitbook/</loc>
-        <lastmod>2019-11-20T12:18:43.864Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
