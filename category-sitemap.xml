@@ -8,6 +8,48 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/mysql/</loc>
+        <lastmod>2020-02-14T12:04:34.207Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/</loc>
+        <lastmod>2020-02-14T12:04:34.207Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/nodejs/</loc>
+        <lastmod>2020-02-14T12:04:09.047Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/javascript/</loc>
+        <lastmod>2020-02-14T12:03:10.296Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E5%BC%80%E5%8F%91/javascript/</loc>
+        <lastmod>2020-02-14T12:01:54.319Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E5%BC%80%E5%8F%91/</loc>
+        <lastmod>2020-02-14T12:01:54.319Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/git/</loc>
         <lastmod>2020-02-09T09:02:16.089Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -24,20 +66,6 @@
     <url>
         <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/Git/</loc>
         <lastmod>2020-02-09T09:02:05.772Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/DB/mysql/</loc>
-        <lastmod>2020-02-09T09:01:13.372Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/DB/</loc>
-        <lastmod>2020-02-09T09:01:13.372Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -66,20 +94,6 @@
     <url>
         <loc>https://tblog.xfutian.com/categories/%E5%90%AF%E8%92%99/</loc>
         <lastmod>2019-11-25T12:26:31.614Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/nodejs/</loc>
-        <lastmod>2019-11-23T09:51:32.249Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF/</loc>
-        <lastmod>2019-11-23T09:51:32.249Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
