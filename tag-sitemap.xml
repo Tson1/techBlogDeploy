@@ -163,12 +163,6 @@
         <priority>0.2</priority>
     </url>
 
-    <url>
-        <loc>https://tblog.xfutian.com/tags/gitBook/</loc>
-        <lastmod>2019-11-25T12:26:31.614Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
 
     <url>
         <loc>https://tblog.xfutian.com/tags/%E6%89%98%E7%AE%A1/</loc>
