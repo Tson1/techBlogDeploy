@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/2020/02/14/nodejs-base-arry01/</loc>
+        <lastmod>2020-02-14T12:05:01.794Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/2020/02/09/MySql-DDL-transaction/</loc>
         <lastmod>2020-02-14T12:04:34.207Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -50,14 +58,6 @@
     <url>
         <loc>https://tblog.xfutian.com/2020/02/14/nodejs-base-arry02/</loc>
         <lastmod>2020-02-14T12:03:10.296Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/2020/02/14/nodejs-base-arry01/</loc>
-        <lastmod>2020-02-14T12:01:54.319Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
