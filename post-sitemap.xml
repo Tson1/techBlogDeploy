@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/2019/08/17/git-jinjiYingyong/</loc>
+        <lastmod>2020-07-08T09:39:49.270Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/2020/02/14/nodejs-base-arry01/</loc>
         <lastmod>2020-02-14T12:05:01.794Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -66,14 +74,6 @@
     <url>
         <loc>https://tblog.xfutian.com/2019/07/20/gitlog-Garbled-win10-japnese/</loc>
         <lastmod>2020-02-09T09:02:16.089Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/2019/08/17/git-jinjiYingyong/</loc>
-        <lastmod>2020-02-09T09:02:05.772Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

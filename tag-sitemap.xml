@@ -3,6 +3,20 @@
 
 
     <url>
+        <loc>https://tblog.xfutian.com/tags/%E5%BA%94%E6%80%A5%E6%8E%AA%E6%96%BD/</loc>
+        <lastmod>2020-07-08T09:39:49.270Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/git/</loc>
+        <lastmod>2020-07-08T09:39:49.270Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/tags/javascript/</loc>
         <lastmod>2020-02-14T12:05:01.794Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -68,27 +82,6 @@
     <url>
         <loc>https://tblog.xfutian.com/tags/OS/</loc>
         <lastmod>2020-02-09T09:02:16.089Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/git/</loc>
-        <lastmod>2020-02-09T09:02:16.089Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/%E5%BA%94%E6%80%A5%E6%8E%AA%E6%96%BD/</loc>
-        <lastmod>2020-02-09T09:02:05.772Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/Git/</loc>
-        <lastmod>2020-02-09T09:02:05.772Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -163,6 +156,12 @@
         <priority>0.2</priority>
     </url>
 
+    <url>
+        <loc>https://tblog.xfutian.com/tags/gitBook/</loc>
+        <lastmod>2019-11-25T12:26:31.614Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
 
     <url>
         <loc>https://tblog.xfutian.com/tags/%E6%89%98%E7%AE%A1/</loc>
