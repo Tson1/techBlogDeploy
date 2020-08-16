@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/2019/08/10/MySQLWorkbench-error/</loc>
+        <lastmod>2020-08-16T07:09:44.043Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/2019/08/17/git-jinjiYingyong/</loc>
         <lastmod>2020-07-08T09:39:49.270Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -34,14 +42,6 @@
     <url>
         <loc>https://tblog.xfutian.com/2019/10/17/nodejs-es6-exec/</loc>
         <lastmod>2020-02-14T12:04:09.047Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/2019/08/10/MySQLWorkbench-error/</loc>
-        <lastmod>2020-02-14T12:03:54.944Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
