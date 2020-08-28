@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/2019/07/17/creatBlog/</loc>
+        <lastmod>2020-08-28T15:39:58.197Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/2020/07/22/csp-nonModal-dialog/</loc>
         <lastmod>2020-08-16T07:50:09.729Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -114,14 +122,6 @@
     <url>
         <loc>https://tblog.xfutian.com/2019/08/10/gitbook-pinyinh-plan/</loc>
         <lastmod>2019-11-25T12:26:31.614Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/2019/07/17/creatBlog/</loc>
-        <lastmod>2019-11-23T09:31:33.969Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

@@ -3,6 +3,34 @@
 
 
     <url>
+        <loc>https://tblog.xfutian.com/tags/%E6%89%98%E7%AE%A1/</loc>
+        <lastmod>2020-08-28T15:39:58.197Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/gitHub/</loc>
+        <lastmod>2020-08-28T15:39:58.197Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/hexo/</loc>
+        <lastmod>2020-08-28T15:39:58.197Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/nodejs/</loc>
+        <lastmod>2020-08-28T15:39:58.197Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/tags/modaldialog/</loc>
         <lastmod>2020-08-16T07:50:09.729Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -53,13 +81,6 @@
 
     <url>
         <loc>https://tblog.xfutian.com/tags/javascript/</loc>
-        <lastmod>2020-02-14T12:05:01.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/nodejs/</loc>
         <lastmod>2020-02-14T12:05:01.794Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -173,27 +194,6 @@
     <url>
         <loc>https://tblog.xfutian.com/tags/gitBook/</loc>
         <lastmod>2019-11-25T12:26:31.614Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/%E6%89%98%E7%AE%A1/</loc>
-        <lastmod>2019-11-23T09:31:33.969Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/gitHub/</loc>
-        <lastmod>2019-11-23T09:31:33.969Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/hexo/</loc>
-        <lastmod>2019-11-23T09:31:33.969Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
