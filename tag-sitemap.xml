@@ -3,6 +3,27 @@
 
 
     <url>
+        <loc>https://tblog.xfutian.com/tags/DB/</loc>
+        <lastmod>2020-08-28T16:25:49.241Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/mysql/</loc>
+        <lastmod>2020-08-28T16:25:49.241Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/tags/MySQLWorkbench/</loc>
+        <lastmod>2020-08-28T16:25:04.630Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/tags/mssql/</loc>
         <lastmod>2020-08-28T16:21:20.885Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -87,20 +108,6 @@
     </url>
 
     <url>
-        <loc>https://tblog.xfutian.com/tags/mysql/</loc>
-        <lastmod>2020-08-16T07:09:44.043Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/MySQLWorkbench/</loc>
-        <lastmod>2020-08-16T07:09:44.043Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://tblog.xfutian.com/tags/%E5%BA%94%E6%80%A5%E6%8E%AA%E6%96%BD/</loc>
         <lastmod>2020-07-08T09:39:49.270Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -110,13 +117,6 @@
     <url>
         <loc>https://tblog.xfutian.com/tags/git/</loc>
         <lastmod>2020-07-08T09:39:49.270Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/tags/DB/</loc>
-        <lastmod>2020-02-14T12:04:34.207Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

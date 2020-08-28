@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/2020/02/09/MySql-DDL-transaction/</loc>
+        <lastmod>2020-08-28T16:25:49.241Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/2019/08/10/MySQLWorkbench-error/</loc>
+        <lastmod>2020-08-28T16:25:04.630Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/2020/08/29/checkHalfAngle/</loc>
         <lastmod>2020-08-28T16:21:20.885Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -48,14 +64,6 @@
     </url>
 
     <url>
-        <loc>https://tblog.xfutian.com/2019/08/10/MySQLWorkbench-error/</loc>
-        <lastmod>2020-08-16T07:09:44.043Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://tblog.xfutian.com/2019/08/17/git-jinjiYingyong/</loc>
         <lastmod>2020-07-08T09:39:49.270Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -66,14 +74,6 @@
     <url>
         <loc>https://tblog.xfutian.com/2020/02/14/nodejs-base-arry01/</loc>
         <lastmod>2020-02-14T12:05:01.794Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/2020/02/09/MySql-DDL-transaction/</loc>
-        <lastmod>2020-02-14T12:04:34.207Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/db/</loc>
+        <lastmod>2020-08-28T16:25:49.241Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/</loc>
+        <lastmod>2020-08-28T16:25:49.241Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/categories/%E5%AE%9E%E8%B7%B5%E7%BB%8F%E9%AA%8C/db/mssql/</loc>
         <lastmod>2020-08-28T16:21:20.885Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -36,13 +50,6 @@
     </url>
 
     <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/</loc>
-        <lastmod>2020-08-28T16:19:42.441Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/</loc>
         <lastmod>2020-08-28T15:53:42.449Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -59,13 +66,6 @@
     <url>
         <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/hexo/</loc>
         <lastmod>2020-08-28T15:42:05.562Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/mysql/</loc>
-        <lastmod>2020-08-16T07:09:44.043Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
