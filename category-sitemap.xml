@@ -8,6 +8,13 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/</loc>
+        <lastmod>2020-08-28T15:53:42.449Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/categories/%E5%AE%9E%E8%B7%B5%E7%BB%8F%E9%AA%8C/c/</loc>
         <lastmod>2020-08-28T15:42:50.791Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -23,13 +30,6 @@
 
     <url>
         <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/hexo/</loc>
-        <lastmod>2020-08-28T15:42:05.562Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/</loc>
         <lastmod>2020-08-28T15:42:05.562Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
