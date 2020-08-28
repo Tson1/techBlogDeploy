@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/javascript/</loc>
+        <lastmod>2020-08-28T16:19:42.441Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/</loc>
+        <lastmod>2020-08-28T16:19:42.441Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/categories/%E5%AE%9E%E8%B7%B5%E7%BB%8F%E9%AA%8C/db/mssql/</loc>
         <lastmod>2020-08-28T16:17:02.125Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -57,22 +71,8 @@
     </url>
 
     <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/</loc>
-        <lastmod>2020-08-16T07:09:44.043Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://tblog.xfutian.com/categories/%E5%88%A9%E5%99%A8/git/</loc>
         <lastmod>2020-07-08T09:39:49.270Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/javascript/</loc>
-        <lastmod>2020-02-14T12:05:01.794Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
