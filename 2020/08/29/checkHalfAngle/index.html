@@ -5,20 +5,20 @@
   
 
   
-  <title>gitHub 里设置CNAME的注意事项 | 一切福田，不离心田方寸</title>
+  <title>checkHalfAngle | 一切福田，不离心田方寸</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="在source文件夹中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如xxxx.com，注意前面没有http://，也没有www，然后使用hexo g &amp;amp;&amp;amp; hexo d上传部署。">
-<meta name="keywords" content="git">
+  <meta name="description" content="简介检测表的一个列里是否有全角数字。">
+<meta name="keywords" content="db,mssql">
 <meta property="og:type" content="article">
-<meta property="og:title" content="gitHub 里设置CNAME的注意事项">
-<meta property="og:url" content="https://tblog.xfutian.com/2019/07/27/git-config-domain2/index.html">
+<meta property="og:title" content="checkHalfAngle">
+<meta property="og:url" content="https://tblog.xfutian.com/2020/08/29/checkHalfAngle/index.html">
 <meta property="og:site_name" content="一切福田，不离心田方寸">
-<meta property="og:description" content="在source文件夹中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如xxxx.com，注意前面没有http://，也没有www，然后使用hexo g &amp;amp;&amp;amp; hexo d上传部署。">
+<meta property="og:description" content="简介检测表的一个列里是否有全角数字。">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-02-09T09:00:30.251Z">
+<meta property="og:updated_time" content="2020-08-28T16:15:04.740Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="gitHub 里设置CNAME的注意事项">
-<meta name="twitter:description" content="在source文件夹中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如xxxx.com，注意前面没有http://，也没有www，然后使用hexo g &amp;amp;&amp;amp; hexo d上传部署。">
+<meta name="twitter:title" content="checkHalfAngle">
+<meta name="twitter:description" content="简介检测表的一个列里是否有全角数字。">
   
     <link rel="alternate" href="/atom.xml" title="一切福田，不离心田方寸" type="application/atom+xml">
   
@@ -73,14 +73,14 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-git-config-domain2" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-checkHalfAngle" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/07/27/git-config-domain2/" class="article-date">
-  <time datetime="2019-07-27T08:14:55.000Z" itemprop="datePublished">2019-07-27</time>
+    <a href="/2020/08/29/checkHalfAngle/" class="article-date">
+  <time datetime="2020-08-28T16:02:40.000Z" itemprop="datePublished">2020-08-29</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/利器/">利器</a>►<a class="article-category-link" href="/categories/利器/git/">git</a>
+    <a class="article-category-link" href="/categories/实践经验/">实践经验</a>►<a class="article-category-link" href="/categories/实践经验/db/">db</a>►<a class="article-category-link" href="/categories/实践经验/db/mssql/">mssql</a>
   </div>
 
   </div>
@@ -91,7 +91,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      gitHub 里设置CNAME的注意事项
+      checkHalfAngle
     </h1>
   
 
@@ -99,18 +99,24 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <ol>
-<li>在source文件夹中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如<br>xxxx.com，注意前面没有http://，也没有www，然后使用hexo g &amp;&amp; hexo d上传部署。<a id="more"></a></li>
-<li>在域名解析提供商，下面以dnspod为例。<br>（1）先添加一个CNAME，主机记录写@，后面记录值写上你的xxxx.github.io<br>（2）再添加一个CNAME，主机记录写www，后面记录值也是xxxx.github.io这样别人用www和不用www都能访问你的网站（其实www的方式，会先解析成<br>xxxx.github.io然后根据CNAME再变成xxx.com即中间是经过一次转换的）。<br>上面，我们用的是CNAME别名记录，也有人使用A记录，后面的记录值是写github page里面的ip地址，但有时候IP地址会更改，<br>导致最后解析不正确，所以还是推荐用CNAME别名记录要好些，不建议用IP。<br>3、等十分钟左右，刷新浏览器，用你自己域名访问下试试</li>
-</ol>
+        <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>检测表的一个列里是否有全角数字。</p>
+<a id="more"></a>
+
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p><a name="etBgE"></a></p>
+<h4 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h4><p>一个老的系统里有一个表，一个列，本来只能接受半角的数字，<br>但数据定义为NVARCHAR（10），后面其他表也接收此列数据但定义是VARCHAR（10）.<br>客户输入时把半角的2345 输入成全角的１２３４５，<br>画面上看不出来，但后续处理时，由于后面的表定义不一致导致出错。</p>
+<p>画面修改后，想知道数据库里是否用全角的垃圾，<br>于是。</p>
+<p><a name="cETy4"></a></p>
+<h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><p>ASCII（X）0：9-（48：57）<br></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">if exists(select * from dbo.sysobjects where id = object_id(N&apos;[dbo].[fnComIsHalfAngleNumber]&apos;) and (type = &apos;FN&apos; or type = &apos;TF&apos;)) </span><br><span class="line">BEGIN</span><br><span class="line">    DROP FUNCTION fnComIsHalfAngleNumber </span><br><span class="line">END</span><br><span class="line">GO</span><br><span class="line">-- =============================================</span><br><span class="line">-- Author:      tson1</span><br><span class="line">-- Description: 半角数字检测</span><br><span class="line">-- =============================================</span><br><span class="line">CREATE FUNCTION dbo.fnComIsHalfAngleNumber </span><br><span class="line">(</span><br><span class="line">    @vStr nvarchar(1000)</span><br><span class="line">)</span><br><span class="line">RETURNS bit</span><br><span class="line">AS</span><br><span class="line">BEGIN</span><br><span class="line">	declare @count as int =&apos;1&apos;</span><br><span class="line">	declare @tempChar as nchar(1)</span><br><span class="line">	declare @result as bit =&apos;1&apos;</span><br><span class="line">	declare @ascii as int</span><br><span class="line">	while(@count&lt;=len(@vStr))</span><br><span class="line">	begin</span><br><span class="line">		set @tempChar =SUBSTRING(@vStr,@count,1)</span><br><span class="line">		set @ascii=ASCII(@tempChar)</span><br><span class="line">		if( not (@ascii&gt;47 AND @ascii&lt;58))</span><br><span class="line">		begin</span><br><span class="line">		 set @result= &apos;0&apos;</span><br><span class="line">		 break</span><br><span class="line">		end</span><br><span class="line">		set @count=@count+1;</span><br><span class="line">	end</span><br><span class="line"></span><br><span class="line">	return @result</span><br><span class="line">END</span><br><span class="line">GO</span><br><span class="line"></span><br><span class="line">/*测试</span><br><span class="line"></span><br><span class="line">select dbo.fnComIsHalfAngleNumber(&apos;123456&apos;) // 1</span><br><span class="line">select dbo.fnComIsHalfAngleNumber(&apos;1234５６&apos;)//0</span><br><span class="line">select dbo.fnComIsHalfAngleNumber(&apos;123456&apos;) //1</span><br><span class="line">select dbo.fnComIsHalfAngleNumber(&apos;12345６&apos;)//0</span><br><span class="line"></span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/07/27/git-config-domain2/" data-id="ckeeft3dr000458tgaey341xi" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2020/08/29/checkHalfAngle/" data-id="ckeeft3ef001258tgi9bs07ln" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/db/">db</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mssql/">mssql</a></li></ul>
 
     </footer>
   </div>
@@ -118,19 +124,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2019/08/03/Atom-install-plugin/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Atom 插件收集
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/07/20/gitlog-Garbled-win10-japnese/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/08/29/visualStudioCode/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Win10 日语环境，gitlog 乱码的解决方法</div>
+      <div class="article-nav-title">Visual Studio Code plugins 插件整理</div>
     </a>
   
 </nav>

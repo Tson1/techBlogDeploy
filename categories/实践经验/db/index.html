@@ -5,20 +5,19 @@
   
 
   
-  <title>gitHub 里设置CNAME的注意事项 | 一切福田，不离心田方寸</title>
+  <title>Category: db | 一切福田，不离心田方寸</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="在source文件夹中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如xxxx.com，注意前面没有http://，也没有www，然后使用hexo g &amp;amp;&amp;amp; hexo d上传部署。">
-<meta name="keywords" content="git">
-<meta property="og:type" content="article">
-<meta property="og:title" content="gitHub 里设置CNAME的注意事项">
-<meta property="og:url" content="https://tblog.xfutian.com/2019/07/27/git-config-domain2/index.html">
+  <meta name="description" content="技术笔记">
+<meta name="keywords" content="技术 开发 数据库 JAVA C# SQLServer Nodejs">
+<meta property="og:type" content="website">
+<meta property="og:title" content="一切福田，不离心田方寸">
+<meta property="og:url" content="https://tblog.xfutian.com/categories/实践经验/db/index.html">
 <meta property="og:site_name" content="一切福田，不离心田方寸">
-<meta property="og:description" content="在source文件夹中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如xxxx.com，注意前面没有http://，也没有www，然后使用hexo g &amp;amp;&amp;amp; hexo d上传部署。">
+<meta property="og:description" content="技术笔记">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-02-09T09:00:30.251Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="gitHub 里设置CNAME的注意事项">
-<meta name="twitter:description" content="在source文件夹中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如xxxx.com，注意前面没有http://，也没有www，然后使用hexo g &amp;amp;&amp;amp; hexo d上传部署。">
+<meta name="twitter:title" content="一切福田，不离心田方寸">
+<meta name="twitter:description" content="技术笔记">
   
     <link rel="alternate" href="/atom.xml" title="一切福田，不离心田方寸" type="application/atom+xml">
   
@@ -73,70 +72,40 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-git-config-domain2" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/07/27/git-config-domain2/" class="article-date">
-  <time datetime="2019-07-27T08:14:55.000Z" itemprop="datePublished">2019-07-27</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/利器/">利器</a>►<a class="article-category-link" href="/categories/利器/git/">git</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+        <section id="main">
   
-    <h1 class="article-title" itemprop="name">
-      gitHub 里设置CNAME的注意事项
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2020" class="archive-year">2020</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2020/08/29/checkHalfAngle/" class="archive-article-date">
+  <time datetime="2020-08-28T16:02:40.000Z" itemprop="datePublished">Aug 29</time>
+</a>
+      
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2020/08/29/checkHalfAngle/">checkHalfAngle</a>
     </h1>
   
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <ol>
-<li>在source文件夹中新建一个CNAME文件（无后缀名），然后用文本编辑器打开，在首行添加你的网站域名，如<br>xxxx.com，注意前面没有http://，也没有www，然后使用hexo g &amp;&amp; hexo d上传部署。<a id="more"></a></li>
-<li>在域名解析提供商，下面以dnspod为例。<br>（1）先添加一个CNAME，主机记录写@，后面记录值写上你的xxxx.github.io<br>（2）再添加一个CNAME，主机记录写www，后面记录值也是xxxx.github.io这样别人用www和不用www都能访问你的网站（其实www的方式，会先解析成<br>xxxx.github.io然后根据CNAME再变成xxx.com即中间是经过一次转换的）。<br>上面，我们用的是CNAME别名记录，也有人使用A记录，后面的记录值是写github page里面的ip地址，但有时候IP地址会更改，<br>导致最后解析不正确，所以还是推荐用CNAME别名记录要好些，不建议用IP。<br>3、等十分钟左右，刷新浏览器，用你自己域名访问下试试</li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/07/27/git-config-domain2/" data-id="ckeeft3dr000458tgaey341xi" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
-
-    </footer>
+    </header>
   </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2019/08/03/Atom-install-plugin/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Atom 插件收集
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2019/07/20/gitlog-Garbled-win10-japnese/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Win10 日语环境，gitlog 乱码的解决方法</div>
-    </a>
-  
-</nav>
-
-  
 </article>
+  
+  
+    </div></section>
+  
+
 
 </section>
         
