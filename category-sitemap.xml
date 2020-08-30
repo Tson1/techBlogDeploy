@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/OS/</loc>
+        <lastmod>2020-08-30T11:23:11.400Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+        <lastmod>2020-08-30T11:23:11.400Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/categories/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91/db/</loc>
         <lastmod>2020-08-28T16:25:49.241Z</lastmod>
         <changefreq>weekly</changefreq>
