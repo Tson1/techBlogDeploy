@@ -5,19 +5,23 @@
   
 
   
-  <title>Tag: linux | 一切福田，不离心田方寸</title>
+  <title>windows 下安装Chocolatey | 一切福田，不离心田方寸</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="技术笔记">
-<meta name="keywords" content="技术 开发 数据库 JAVA C# SQLServer Nodejs">
-<meta property="og:type" content="website">
-<meta property="og:title" content="一切福田，不离心田方寸">
-<meta property="og:url" content="https://tblog.xfutian.com/tags/linux/index.html">
+  <meta name="description" content="简介 Chocolatey 是一个强大的软件包管理工具 ，类似 Linux 的 apt-get 以 Win10 为例">
+<meta name="keywords" content="Win">
+<meta property="og:type" content="article">
+<meta property="og:title" content="windows 下安装Chocolatey">
+<meta property="og:url" content="https://tblog.xfutian.com/2020/10/11/windows-install-chocolatey/index.html">
 <meta property="og:site_name" content="一切福田，不离心田方寸">
-<meta property="og:description" content="技术笔记">
+<meta property="og:description" content="简介 Chocolatey 是一个强大的软件包管理工具 ，类似 Linux 的 apt-get 以 Win10 为例">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2020/png/1219627/1591680060228-eafca26a-a717-4dae-8229-5a744deba66d.png#align=left&display=inline&height=665&margin=%5Bobject%20Object%5D&name=%E5%9B%BE%E7%89%87.png&originHeight=665&originWidth=852&size=34662&status=done&style=none&width=852">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2020/png/1219627/1591680444343-5f844d30-5cb3-4183-a649-04ad5abbdd52.png#align=left&display=inline&height=108&margin=%5Bobject%20Object%5D&name=%E5%9B%BE%E7%89%87.png&originHeight=108&originWidth=529&size=12706&status=done&style=none&width=529">
+<meta property="og:updated_time" content="2020-10-10T15:32:50.360Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一切福田，不离心田方寸">
-<meta name="twitter:description" content="技术笔记">
+<meta name="twitter:title" content="windows 下安装Chocolatey">
+<meta name="twitter:description" content="简介 Chocolatey 是一个强大的软件包管理工具 ，类似 Linux 的 apt-get 以 Win10 为例">
+<meta name="twitter:image" content="https://cdn.nlark.com/yuque/0/2020/png/1219627/1591680060228-eafca26a-a717-4dae-8229-5a744deba66d.png#align=left&display=inline&height=665&margin=%5Bobject%20Object%5D&name=%E5%9B%BE%E7%89%87.png&originHeight=665&originWidth=852&size=34662&status=done&style=none&width=852">
   
     <link rel="alternate" href="/atom.xml" title="一切福田，不离心田方寸" type="application/atom+xml">
   
@@ -72,59 +76,80 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2020/08/30/Centos7-install-someproblem/" class="archive-article-date">
-  <time datetime="2020-08-30T11:12:11.000Z" itemprop="datePublished">Aug 30</time>
+        <section id="main"><article id="post-windows-install-chocolatey" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/11/windows-install-chocolatey/" class="article-date">
+  <time datetime="2020-10-10T15:31:48.000Z" itemprop="datePublished">2020-10-11</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/开发环境/">开发环境</a>►<a class="article-category-link" href="/categories/开发环境/OS/">OS</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/08/30/Centos7-install-someproblem/">Linux-centos7 安裝時的問題 （Virtual Box）</a>
+    <h1 class="article-title" itemprop="name">
+      windows 下安装Chocolatey
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2020/08/30/Centos7-GUI-CUI/" class="archive-article-date">
-  <time datetime="2020-08-30T11:06:12.000Z" itemprop="datePublished">Aug 30</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/08/30/Centos7-GUI-CUI/">Lunx Centos7 圖形界面，命令界面切換</a>
-    </h1>
-  
+        <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><a name="HdDs9"></a></p>
+<h2 id="Chocolatey-是一个强大的软件包管理工具-，类似-Linux-的-apt-get"><a href="#Chocolatey-是一个强大的软件包管理工具-，类似-Linux-的-apt-get" class="headerlink" title="Chocolatey 是一个强大的软件包管理工具 ，类似 Linux 的 apt-get"></a>Chocolatey 是一个强大的软件包管理工具 ，类似 Linux 的 apt-get</h2><p><a name="5kwTI"></a></p>
+<h3 id="以-Win10-为例"><a href="#以-Win10-为例" class="headerlink" title="以 Win10 为例"></a>以 Win10 为例</h3><a id="more"></a>
 
-    </header>
+<ol>
+<li>启动 PowShell</li>
+<li>在官网上复制命令</li>
+</ol>
+<p><a href="https://chocolatey.org/install#installing-chocolatey" target="_blank" rel="noopener"> https://chocolatey.org/install#installing-chocolatey</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&apos;https://chocolatey.org/install.ps1&apos;))</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.nlark.com/yuque/0/2020/png/1219627/1591680060228-eafca26a-a717-4dae-8229-5a744deba66d.png#align=left&display=inline&height=665&margin=%5Bobject%20Object%5D&name=%E5%9B%BE%E7%89%87.png&originHeight=665&originWidth=852&size=34662&status=done&style=none&width=852" alt="图片.png"></p>
+<p>查看版本</p>
+<p>choco -v</p>
+<p>安装 Graphviz , 画 UML 的图形库</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">choco search graphviz</span><br><span class="line">choco install -y Graphviz</span><br><span class="line">choco upgrade -y all</span><br></pre></td></tr></table></figure>
+
+<p>用 VSCode 编写，PlantUML</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">@startuml</span><br><span class="line">Alice -&gt; Bob: Authentication Request</span><br><span class="line">Bob --&gt; Alice: Authentication Response</span><br><span class="line"></span><br><span class="line">Alice -&gt; Bob: Another authentication Request</span><br><span class="line">Alice &lt;-- Bob: another authentication Response</span><br><span class="line"></span><br><span class="line">interface first&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">class test&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">@enduml</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alt + d 看x</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.nlark.com/yuque/0/2020/png/1219627/1591680444343-5f844d30-5cb3-4183-a649-04ad5abbdd52.png#align=left&display=inline&height=108&margin=%5Bobject%20Object%5D&name=%E5%9B%BE%E7%89%87.png&originHeight=108&originWidth=529&size=12706&status=done&style=none&width=529" alt="图片.png"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tblog.xfutian.com/2020/10/11/windows-install-chocolatey/" data-id="ckg3u9fjx005dpstgppvztmi4" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Win/">Win</a></li></ul>
+
+    </footer>
   </div>
-</article>
+  
+    
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/2020/08/30/Centos7-install-someproblem/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Linux-centos7 安裝時的問題 （Virtual Box）</div>
+    </a>
   
+</nav>
 
+  
+</article>
 
 </section>
         
