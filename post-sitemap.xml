@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/2020/10/11/centos7-attacked-bysshscan/</loc>
+        <lastmod>2020-10-10T15:43:46.090Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/2020/10/11/mysql-truncatetable-withFk/</loc>
+        <lastmod>2020-10-10T15:41:12.029Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/2020/10/11/windows-install-chocolatey/</loc>
         <lastmod>2020-10-10T15:32:50.360Z</lastmod>
         <changefreq>weekly</changefreq>

@@ -5,20 +5,20 @@
   
 
   
-  <title>nodejs-excute-es6CMD | 一切福田，不离心田方寸</title>
+  <title>Mysql 有外键时的 Truncate Table | 一切福田，不离心田方寸</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Node环境直接执行命令起因 开发环境 nodejs + webpack + babel 作Serv端 语法是ES6 用$nmp run 执行测试一切正常 写了一个代码生成的小工具放在Tool下面，用来直接生成XXXDao.js">
-<meta name="keywords" content="nodejs,ES6">
+  <meta name="description" content="简介Mysql 如果 2 个表有外键约束，那么父表无法 Truncate ，就算先把子表清空也不行，这点 SqlServer 是可以的">
+<meta name="keywords" content="db">
 <meta property="og:type" content="article">
-<meta property="og:title" content="nodejs-excute-es6CMD">
-<meta property="og:url" content="https://tblog.xfutian.com/2019/10/26/nodejs-excute-es6CMD/index.html">
+<meta property="og:title" content="Mysql 有外键时的 Truncate Table">
+<meta property="og:url" content="https://tblog.xfutian.com/2020/10/11/mysql-truncatetable-withFk/index.html">
 <meta property="og:site_name" content="一切福田，不离心田方寸">
-<meta property="og:description" content="Node环境直接执行命令起因 开发环境 nodejs + webpack + babel 作Serv端 语法是ES6 用$nmp run 执行测试一切正常 写了一个代码生成的小工具放在Tool下面，用来直接生成XXXDao.js">
+<meta property="og:description" content="简介Mysql 如果 2 个表有外键约束，那么父表无法 Truncate ，就算先把子表清空也不行，这点 SqlServer 是可以的">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-02-14T12:03:18.022Z">
+<meta property="og:updated_time" content="2020-10-10T15:41:12.029Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="nodejs-excute-es6CMD">
-<meta name="twitter:description" content="Node环境直接执行命令起因 开发环境 nodejs + webpack + babel 作Serv端 语法是ES6 用$nmp run 执行测试一切正常 写了一个代码生成的小工具放在Tool下面，用来直接生成XXXDao.js">
+<meta name="twitter:title" content="Mysql 有外键时的 Truncate Table">
+<meta name="twitter:description" content="简介Mysql 如果 2 个表有外键约束，那么父表无法 Truncate ，就算先把子表清空也不行，这点 SqlServer 是可以的">
   
     <link rel="alternate" href="/atom.xml" title="一切福田，不离心田方寸" type="application/atom+xml">
   
@@ -73,14 +73,14 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-nodejs-excute-es6CMD" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-mysql-truncatetable-withFk" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/10/26/nodejs-excute-es6CMD/" class="article-date">
-  <time datetime="2019-10-26T04:48:15.000Z" itemprop="datePublished">2019-10-26</time>
+    <a href="/2020/10/11/mysql-truncatetable-withFk/" class="article-date">
+  <time datetime="2020-10-10T15:39:04.000Z" itemprop="datePublished">2020-10-11</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/技术开发/">技术开发</a>►<a class="article-category-link" href="/categories/技术开发/nodejs/">nodejs</a>
+    <a class="article-category-link" href="/categories/实践经验/">实践经验</a>►<a class="article-category-link" href="/categories/实践经验/db/">db</a>
   </div>
 
   </div>
@@ -91,7 +91,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      nodejs-excute-es6CMD
+      Mysql 有外键时的 Truncate Table
     </h1>
   
 
@@ -99,40 +99,20 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Node环境直接执行命令"><a href="#Node环境直接执行命令" class="headerlink" title="Node环境直接执行命令"></a>Node环境直接执行命令</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><ul>
-<li>开发环境 nodejs + webpack + babel 作Serv端</li>
-<li>语法是ES6</li>
-<li>用$nmp run 执行测试一切正常</li>
-<li>写了一个代码生成的小工具放在Tool下面，用来直接生成XXXDao.js</li>
-</ul>
+        <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Mysql 如果 2 个表有外键约束，那么父表无法 Truncate ，就算先把子表清空也不行，这点 SqlServer 是可以的</p>
 <a id="more"></a>
-<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><ul>
-<li><p>代码生成工具用直接Node genFiles.js 无法执行。说不认识ES6语法（用了import）</p>
-</li>
-<li><p>参考package.json 的Server脚本，估计执行babel-node 应该可以</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;server&quot;: &quot;babel-node ./src/bin/www&quot;,</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>但直接用babel-node 说找不到命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&apos;babel-node&apos; は、内部コマンドまたは外部コマンド、</span><br><span class="line">操作可能なプログラムまたはバッチ ファイルとして認識されていません。</span><br></pre></td></tr></table></figure>
 
-</li>
-</ul>
-<h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><p>经过一番谷GE，知道 package.json的scripts是自动改变环境变量的</p>
-<blockquote>
-<p>   1.每当执行npm run，就会自动新建一个 Shell，在这个 Shell 里面执行指定的scripts脚本命令。因此，只要是 Shell（一般是 Bash）可以运行的命令，就可以写在 npm 脚本里面。<br>  2.比较特别的是，npm run新建的这个 Shell，执行scripts的时候，会将当前目录的node_modules/.bin子目录加入PATH变量，执行结束后，再将PATH变量恢复原样。<br>  3.这意味着，当前目录的node_modules/.bin子目录里面的所有脚本，在scripts中都可以直接用脚本名，而不必加上路径。比如，当前项目的依赖里面有 Mocha，只要直接写mocha test就可以了。<br>  “test”: “./node_modules/.bin/mocha test”<br>  //可以简写为<br>  “test”: “mocha test”<br>  由于 npm 脚本的唯一要求就是可以在 Shell 执行，因此它不一定是 Node 脚本，任何可执行文件都可以写在里面。</p>
-</blockquote>
-<p>如果要在命令行里直接执行命令，就要指定路径。本地安装的包都在【node_modules.bin】下有链接</p>
-<p>所以下面的命令就可以执行了</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node_modules\.bin\babel-node .\tool\codeGen\XXXXX.js</span><br></pre></td></tr></table></figure>
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>先关闭外键约束，删除后重新开启。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">SET FOREIGN_KEY_CHECKS=0; -- 关闭外键约束</span><br><span class="line">truncate table A;</span><br><span class="line">truncate table B;</span><br><span class="line">truncate table C; -- 顺序zi&apos;y</span><br><span class="line">SET FOREIGN_KEY_CHECKS=1; -- 重新开启外键约束</span><br></pre></td></tr></table></figure>
 
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tblog.xfutian.com/2019/10/26/nodejs-excute-es6CMD/" data-id="ckg3umils000v80tgtcfi5z41" class="article-share-link">Share</a>
+      <a data-url="https://tblog.xfutian.com/2020/10/11/mysql-truncatetable-withFk/" data-id="ckg3umim2001j80tgxlduxlp9" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ES6/">ES6</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/db/">db</a></li></ul>
 
     </footer>
   </div>
@@ -140,19 +120,19 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/02/09/MySql-DDL-transaction/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/10/11/centos7-attacked-bysshscan/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          MySql的坑- 临时表操作对事务的影响
+          SSH扫描攻击 的简单处理
         
       </div>
     </a>
   
   
-    <a href="/2019/10/17/nodejs-es6-exec/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/10/11/windows-install-chocolatey/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Nodejs环境直接执行ES6 的方法</div>
+      <div class="article-nav-title">windows 下安装Chocolatey</div>
     </a>
   
 </nav>
