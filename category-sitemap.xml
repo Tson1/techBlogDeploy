@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://tblog.xfutian.com/categories/%E5%AE%9E%E8%B7%B5%E7%BB%8F%E9%AA%8C/javascript/</loc>
+        <lastmod>2020-10-10T15:49:19.421Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://tblog.xfutian.com/categories/%E5%AE%9E%E8%B7%B5%E7%BB%8F%E9%AA%8C/</loc>
+        <lastmod>2020-10-10T15:49:19.421Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://tblog.xfutian.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/OS/</loc>
         <lastmod>2020-10-10T15:43:46.090Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -23,13 +37,6 @@
 
     <url>
         <loc>https://tblog.xfutian.com/categories/%E5%AE%9E%E8%B7%B5%E7%BB%8F%E9%AA%8C/db/</loc>
-        <lastmod>2020-10-10T15:41:12.029Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://tblog.xfutian.com/categories/%E5%AE%9E%E8%B7%B5%E7%BB%8F%E9%AA%8C/</loc>
         <lastmod>2020-10-10T15:41:12.029Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
