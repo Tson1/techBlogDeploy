@@ -4,22 +4,17 @@
 
     <sitemap>
         <loc>https://tblog.xfutian.com/post-sitemap.xml</loc>
-        <lastmod>2020-10-10T15:49:19.421Z</lastmod>
-    </sitemap>
-
-    <sitemap>
-        <loc>https://tblog.xfutian.com/page-sitemap.xml</loc>
-        <lastmod>2021-08-10T11:34:39.252Z</lastmod>
+        <lastmod>2021-08-14T03:46:10.492Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://tblog.xfutian.com/category-sitemap.xml</loc>
-        <lastmod>2020-10-10T15:49:19.421Z</lastmod>
+        <lastmod>2021-08-14T03:46:10.492Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://tblog.xfutian.com/tag-sitemap.xml</loc>
-        <lastmod>2020-10-10T15:49:19.421Z</lastmod>
+        <lastmod>2021-08-14T03:46:10.492Z</lastmod>
     </sitemap>
 
 </sitemapindex>
