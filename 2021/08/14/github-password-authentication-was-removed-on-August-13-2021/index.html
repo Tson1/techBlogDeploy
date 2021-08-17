@@ -20,7 +20,7 @@
 <meta property="og:image" content="https://tblog.xfutian.com/2021/08/14/github-password-authentication-was-removed-on-August-13-2021/2021-08-14-12-38-31.png">
 <meta property="og:image" content="https://tblog.xfutian.com/2021/08/14/github-password-authentication-was-removed-on-August-13-2021/2021-08-14-12-39-33.png">
 <meta property="og:image" content="https://tblog.xfutian.com/2021/08/14/github-password-authentication-was-removed-on-August-13-2021/2021-08-14-12-41-10.png">
-<meta property="og:updated_time" content="2021-08-14T03:50:47.711Z">
+<meta property="og:updated_time" content="2021-08-17T09:52:39.063Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="github password authentication was removed on August 13, 2021">
 <meta name="twitter:description" content="简介github password authentication was removed on August 13, 2021的解决方法。">
@@ -108,22 +108,26 @@
         <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>github password authentication was removed on August 13, 2021<br>的解决方法。</p>
 <a id="more"></a>
 
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>2021-08-14早上在远程机上Pull代码出错。</p>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>2021-08-14 早上在远程机上 Pull 代码出错。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.</span><br><span class="line">remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.</span><br></pre></td></tr></table></figure>
 
-<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>不能再用密码了，用token代替密码操作即可。</p>
+<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>不能再用密码了，用 token 代替密码操作即可。</p>
 <ol>
-<li><p>打开settings<br><img src="2021-08-14-12-36-26.png" alt="settings"></p>
+<li><p>打开 settings<br><img src="2021-08-14-12-36-26.png" alt="settings"></p>
 </li>
-<li><p>打开developer settings<br><img src="2021-08-14-12-38-31.png" alt="developer"></p>
+<li><p>打开 developer settings<br><img src="2021-08-14-12-38-31.png" alt="developer"></p>
 </li>
-<li><p>打开Personal access tokens<br><img src="2021-08-14-12-39-33.png" alt="Personal access tokens"></p>
+<li><p>打开 Personal access tokens<br><img src="2021-08-14-12-39-33.png" alt="Personal access tokens"></p>
 </li>
 <li><p>打开 generator new tokens<br><img src="2021-08-14-12-41-10.png" alt="enerator new tokens"></p>
 </li>
-<li><p>tokens生成以后复制下来就可以当密码用了。<br>在远程Pull以后，提示输入密码的地方，黏贴token 就OK了。</p>
+<li><p>tokens 生成以后复制下来就可以当密码用了。<br>在远程 Pull 以后，提示输入密码的地方，黏贴 token 就 OK 了。</p>
+</li>
+<li><p>在 centos7 中免密码提交:执行下面的命令，之后 Pull 一次，输入用户名及密码，之后就不用在输入密码了</p>
 </li>
 </ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global credential.helper store</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
